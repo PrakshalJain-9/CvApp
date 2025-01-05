@@ -1,5 +1,5 @@
 import { useState } from "react";
-import '../styles/TakeInput.css';
+import "../styles/TakeInput.css";
 
 // eslint-disable-next-line
 export default function TakeInput({ Field, isSubmitted, type }) {
@@ -12,9 +12,9 @@ export default function TakeInput({ Field, isSubmitted, type }) {
   return (
     <>
       <p>
-        <label>{Field}: </label>
+        <label className="takeInput-label">{Field}: </label>
         {isSubmitted ? (
-          FieldValue
+          <span className="takeInput-span"> {FieldValue}</span>
         ) : (
           <input
             className="inputField"

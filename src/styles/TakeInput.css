@@ -8,7 +8,18 @@
 }
 
 .blocks {
-    margin: 2rem auto;
-    border: 3px solid black;
+  margin: 2rem auto;
+  border: 3px solid black;
 }
 
+.takeInput-label {
+  font-weight: 800;
+  font-style: oblique;
+  margin: 10px;
+}
+
+.takeInput-span {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
