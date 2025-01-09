@@ -1,5 +1,5 @@
 import { useState } from "react";
-import TakeInput from "./Takeinput";
+import TakeInput from "./TakeInput.jsx";
 import "../styles/Section.css";
 
 // eslint-disable-next-line

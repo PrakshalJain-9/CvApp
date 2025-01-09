@@ -1,4 +1,4 @@
-import Section from "./Section";
+import Section from "./Section.jsx";
 
 export default function Education() {
   const data = [
